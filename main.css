@@ -1,0 +1,139 @@
+body{
+    background: #fff;
+    margin: 45px 40px;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+/*body Grid system*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    gap: 50px;
+    width: 100%;
+}
+
+
+
+
+/*left Side Grid*/
+
+
+
+.leftnav{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/*leftnav(sidebar) Link edit*/
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*main content grid= class = featured.*/
+
+
+.featured{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+.featured > img{
+    max-width: 100%;
+}
+
+/*for the leftside bar, *sticky*/
+
+
+
+.stickyside{
+    position: sticky;
+
+    top: 0;
+    height: 180px;
+    width: 100%;
+}
+
+
+/*for the leftside bar = list-style-type and the margin*/
+
+ul, li{
+  list-style-type: none;
+}
+
+/* i want the logo image and nav button to be in a straight line*/
+
+
+.leftnav{
+    margin: 3%;
+    position: relative;
+}
+
+.nav{
+    position: absolute;
+    top: 120px;
+    right: 88px;
+}
+
+/*animation for the nav button*/
+
+.projects{
+    color: #000;
+    cursor: pointer;
+    transition: 1ms;
+
+}
+
+.projects:hover{
+    color: #c2c0b4;
+}
+
+
+
+.about{
+    color: #000;
+    cursor: pointer;
+    transition: 1ms;
+}
+
+.about:hover{
+    color: #c2c0b4;
+}
+
+
+.about:active{
+    color: #c2c0b4;
+}
+
+.contact{
+    color: #000;
+    cursor: pointer;
+    transition: 1ms;
+}
+
+.contact:hover{
+    color: #c2c0b4;
+}
+
+.contact:focus{
+    color: #c2c0b4;
+}
+
+
+/*stylig the socials*/
+
+.socials{
+    position: absolute;
+    top: 670px;
+}
+
+/*when a particular nav button is clicked*/
+
